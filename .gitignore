@@ -1,0 +1,39 @@
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Database and SQLite
+*.sqlite
+*.sqlite3
+*.db
+civicpulse.db
+
+# Environment variables
+.env
+
+# Uploads except placeholders
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+app/static/uploads/complaints/*
+!app/static/uploads/complaints/.gitkeep
+app/static/uploads/verifications/*
+!app/static/uploads/verifications/.gitkeep
+app/static/uploads/resolutions/*
+!app/static/uploads/resolutions/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
